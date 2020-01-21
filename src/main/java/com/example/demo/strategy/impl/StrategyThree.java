@@ -1,0 +1,15 @@
+package com.example.demo.strategy.impl;
+
+import org.springframework.stereotype.Component;
+/**
+ * 版本区分实现
+ */
+@Component("8.0.4")
+public class StrategyThree extends StrategyTwo {
+
+
+    @Override
+    public String doOperation() {
+        return "8.0.4";
+    }
+}
